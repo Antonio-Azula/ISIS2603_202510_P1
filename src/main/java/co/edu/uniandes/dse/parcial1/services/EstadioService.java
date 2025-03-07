@@ -17,7 +17,7 @@ public class EstadioService {
     private EstadioRepository estadioRepository;
 
     @Transactional
-    public EstadioEntity crearConcierto(EstadioEntity estadioEntity) throws IllegalOperationException
+    public EstadioEntity crearEstadio(EstadioEntity estadioEntity) throws IllegalOperationException
     {
         log.info("Creando estadio...");
 
