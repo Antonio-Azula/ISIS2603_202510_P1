@@ -39,9 +39,6 @@ public class ConciertoServiceTest
 		insertData();
 	}
 
-	/**
-	 * Limpia las tablas que están implicadas en la prueba.
-	 */
 	private void clearData() {
 		entityManager.getEntityManager().createQuery("delete from ConciertoEntity").executeUpdate();
 	}
